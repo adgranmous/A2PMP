@@ -26,9 +26,17 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TemoignageImg = styled.img`
-  width: 45%;
+  width: 40%;
+  height: 100%;
 
   @media screen and (max-width: 768px) {
     width: 250px;
   }
+`;
+
+export const ImgLegende = styled.p`
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-style: italic;
 `;

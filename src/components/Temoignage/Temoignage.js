@@ -11,6 +11,7 @@ import {
   Signature,
   TemoignageImg,
   ImgWrapper,
+  ImgLegende,
 } from "./TemoignageElements";
 
 const Temoignage = () => {
@@ -172,12 +173,12 @@ const Temoignage = () => {
       <ImgWrapper>
         <TemoignageImg src={require("../../images/Article/mairie.jpg")} />
       </ImgWrapper>
-      <TemoignageContainer>
+      <ImgLegende>
         <small>
           La porte de droite c’était la classe des petits, la porte du milieu la
           mairie, et la porte de gauche la classe des grands.
         </small>
-      </TemoignageContainer>
+      </ImgLegende>
       <TemoignageContainer>
         <b>COMMERCES</b>
         <br />
