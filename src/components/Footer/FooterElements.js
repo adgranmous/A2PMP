@@ -6,7 +6,9 @@ export const FooterContainer = styled.footer`
   left: 0;
   bottom: 0vh;
   right: 0;
-  height: 80px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
 
   @media screen and (max-width: 768px) {
     height: auto;
@@ -14,11 +16,10 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 18px 24px;
+  padding: 9px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
 `;
 
 export const FooterLinksContainer = styled.div`
@@ -46,13 +47,16 @@ export const FooterLinkItems = styled.div`
 export const FooterLink = styled(Link)`
   color: #fff;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-  margin: 10px;
-  font-size: small;
+  padding: 0px 10px;
+  font-size: 12px;
 
   &:hover {
     color: #01bf71;
     transition: 0.3s ease-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 10px;
   }
 `;
 
@@ -73,7 +77,11 @@ export const DevBy = styled.div`
   display: flex;
   justify-content: flex-end;
   color: #3a4656;
-  padding-right: 30px;
+  padding: 0 30px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 2px;
+  }
 `;
 export const DevP = styled.p`
   padding-right: 6px;

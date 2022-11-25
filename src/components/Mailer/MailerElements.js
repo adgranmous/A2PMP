@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const MailerContainer = styled.div``;
+export const MailerContainer = styled.div`
+  min-height: calc(100vh - 140px);
+`;
 export const MailerWrapper = styled.div`
   width: 80%;
   margin: 80px;

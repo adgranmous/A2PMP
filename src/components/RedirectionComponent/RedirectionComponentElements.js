@@ -5,7 +5,8 @@ export const RedirectContainer = styled.div`
   display: flex;
   justify-content: center;
   background-color: #010101;
-  padding-bottom: 19vh;
+  min-height: calc(100vh-140px);
+  ${"" /* min-height: 100vh; */}
 `;
 export const RedirectWrapper = styled.div`
   display: flex;
