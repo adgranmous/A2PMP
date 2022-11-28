@@ -6,8 +6,8 @@ import {
   FooterWrap,
   FooterLinksContainer,
   FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLink,
+  // FooterLinkItems,
+  // FooterLink,
   SocialLogo,
   WebsiteRights,
   DevBy,
@@ -29,14 +29,14 @@ const Footer = () => {
           </SocialLogo>
           <FooterLinksContainer>
             <FooterLinksWrapper>
-              <FooterLinkItems>
+              {/* <FooterLinkItems>
                 <FooterLink to="/contact">Contact</FooterLink>
                 <FooterLink to="/actu">Actualités</FooterLink>
                 <FooterLink to="/chantiers">Chantiers</FooterLink>
                 <FooterLink to="/histoire">Histoire</FooterLink>
                 <FooterLink to="/temoignages">Témoignages</FooterLink>
                 <FooterLink to="/articles">Articles</FooterLink>
-              </FooterLinkItems>
+              </FooterLinkItems> */}
             </FooterLinksWrapper>
           </FooterLinksContainer>
 

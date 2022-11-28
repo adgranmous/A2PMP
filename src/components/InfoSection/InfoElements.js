@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-  padding: 80px 0;
+  padding: 70px 0 0;
 
   @media screen and (max-width: 700px) {
-    padding: 50px 0;
+    padding-bottom: 30px;
   }
 `;
 
@@ -57,6 +57,7 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  padding-top: 15px;
 `;
 
 export const Heading = styled.h1`
