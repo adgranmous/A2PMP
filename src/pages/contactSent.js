@@ -4,13 +4,16 @@ import Footer from "../components/Footer/Footer";
 import InfoSection from "../components/InfoSection/InfoSection";
 import { homeObjSent } from "../components/InfoSection/Data";
 import RedirectionComponent from "../components/RedirectionComponent/RedirectionComponent";
+import { Layout } from "./PageStyle";
 
 const contactSent = () => {
   return (
     <>
       <Header />
-      <InfoSection {...homeObjSent} />
-      <RedirectionComponent />
+      <Layout>
+        <InfoSection {...homeObjSent} />
+        <RedirectionComponent />
+      </Layout>
       <Footer />
     </>
   );

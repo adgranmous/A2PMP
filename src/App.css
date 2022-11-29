@@ -5,7 +5,9 @@
   font-family: "Epilogue", sans-serif;
 }
 
-/* body, html {
+body,
+html,
+#root {
   height: 100%;
   min-height: 100vh;
-} */
+}

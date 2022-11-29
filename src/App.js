@@ -13,18 +13,18 @@ import ArticlesPage from "./pages/articles";
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/actu" element={<ActuPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
-          <Route exact path="/contact/sent" element={<ContactSent />} />
-          <Route exact path="/chantiers" element={<ChantiersPage />} />
-          <Route exact path="/histoire" element={<HistoirePage />} />
-          <Route exact path="/temoignages" element={<TemoignagesPage />} />
-          <Route exact path="/articles" element={<ArticlesPage />} />
-        </Routes>
-      </Router>
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/actu" element={<ActuPage />} />
+            <Route exact path="/contact" element={<ContactPage />} />
+            <Route exact path="/contact/sent" element={<ContactSent />} />
+            <Route exact path="/chantiers" element={<ChantiersPage />} />
+            <Route exact path="/histoire" element={<HistoirePage />} />
+            <Route exact path="/temoignages" element={<TemoignagesPage />} />
+            <Route exact path="/articles" element={<ArticlesPage />} />
+          </Routes>
+        </Router>
     </>
   );
 }

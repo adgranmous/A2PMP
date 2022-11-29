@@ -1,4 +1,3 @@
-import React, { useState, useEffect, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
@@ -14,33 +13,7 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 
-function Navbar({ toggle, isTransparent }) {
-  const [transparentBackground, setTransparentBackground] =
-    useState(isTransparent);
-
-  const changeNav = () => {
-    if (window.scrollY >= 80 && transparentBackground) {
-      console.log(transparentBackground);
-      setTransparentBackground(false);
-    } else if (window.scrollY < 80 && !transparentBackground) {
-      console.log(transparentBackground);
-      setTransparentBackground(true);
-    }
-  };
-
-  const savedChangeNav = useRef(changeNav);
-
-  savedChangeNav.current = changeNav;
-
-  useEffect(() => {
-    function callChangeNav() {
-      savedChangeNav.current();
-    }
-    if (isTransparent) {
-      window.addEventListener("scroll", callChangeNav);
-    }
-  }, []);
-
+function Navbar({ toggle }) {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -48,7 +21,7 @@ function Navbar({ toggle, isTransparent }) {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
-        <Nav transparentBackground={transparentBackground}>
+        <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               A2PMP

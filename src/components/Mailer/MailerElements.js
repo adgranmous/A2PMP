@@ -1,19 +1,20 @@
 import styled from "styled-components";
 
 export const MailerContainer = styled.div`
-  min-height: calc(100vh - 140px);
+  min-height: calc(100vh - 60px);
 `;
 export const MailerWrapper = styled.div`
-  width: 80%;
-  margin: 80px;
   background-color: #fff;
-  padding-top: 80px;
+  padding: 150px 100px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const MailerRow = styled.div`
   display: flex;
   align-items: center;
   background-color: #fff;
+  max-width: 1100px;
 
   @media screen and (max-width: 700px) {
     flex-direction: column;
@@ -23,7 +24,7 @@ export const MailerRow = styled.div`
 export const Column1 = styled.div`
   width: 100%;
   justify-content: center;
-  margin-right: 20px;
+  padding-right: 20px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
