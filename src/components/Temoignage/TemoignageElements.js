@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
-export const TemoignageContainer = styled.p`
+export const TemoignageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+export const TemoignageContainer = styled.div`
+  max-width: 1100px;
+`;
+
+export const TemoignageText = styled.p`
   padding: 40px 150px;
   text-align: justify;
   line-height: 1.3em;

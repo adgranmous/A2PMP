@@ -5,6 +5,7 @@ import {
   RedirectLine,
   RedirectLink,
 } from "./RedirectionComponentElements";
+import { FaArrowRight } from "react-icons/fa";
 
 const RedirectionComponent = () => {
   return (
@@ -13,6 +14,7 @@ const RedirectionComponent = () => {
         <RedirectWrapper>
           <RedirectLine></RedirectLine>
           <RedirectLink to="/">Retourner à la page d'acceuil</RedirectLink>
+          <FaArrowRight />
         </RedirectWrapper>
       </RedirectContainer>
     </>

@@ -62,6 +62,21 @@ export const homeObjActu = {
   darkText: false,
 };
 
+// -------------CHANTIER--------------------
+
+export const chantierObjEglise = {
+  id: "eglise",
+  lightBg: false,
+  lightText: true,
+  topLine: "Eglise",
+  headLine: "Notre demarche",
+  description: `"Lors de sa première visite, il nous a confirmé que nous possédions deux "trésors" anciens."`,
+  imgStart: false,
+  img: require("../../images/Eglise/eglise1.jpg"),
+  alt: "eglise",
+  darkText: false,
+};
+
 // -------------HISTOIRE--------------------
 
 export const homeObjConstruction = {

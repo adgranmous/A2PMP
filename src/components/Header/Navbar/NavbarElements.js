@@ -45,6 +45,7 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
+    padding-right: 9px;
   }
 `;
 

@@ -8,7 +8,11 @@ export const RedirectContainer = styled.div`
 `;
 export const RedirectWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  color: #01bf71;
+  font-size: 1.5rem;
+  :hover {
+    color: #fff;
+  }
 `;
 export const RedirectLine = styled.p`
   color: #fff;
@@ -21,8 +25,7 @@ export const RedirectLink = styled(NavLink)`
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.5rem;
-
+  padding-right: 5px;
   :hover {
     color: #fff;
   }

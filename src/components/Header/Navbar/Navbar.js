@@ -37,7 +37,6 @@ function Navbar({ toggle }) {
                   duration={500}
                   spy="true"
                   exact="true"
-                  offset={-80}
                 >
                   Actualités
                 </NavLinks>
@@ -49,7 +48,6 @@ function Navbar({ toggle }) {
                   duration={500}
                   spy="true"
                   exact="true"
-                  offset={-80}
                 >
                   Chantiers
                 </NavLinks>
@@ -61,7 +59,6 @@ function Navbar({ toggle }) {
                   duration={500}
                   spy="true"
                   exact="true"
-                  offset={-80}
                 >
                   Histoire
                 </NavLinks>
@@ -73,7 +70,6 @@ function Navbar({ toggle }) {
                   duration={500}
                   spy="true"
                   exact="true"
-                  offset={-80}
                 >
                   Témoignages
                 </NavLinks>
@@ -85,7 +81,6 @@ function Navbar({ toggle }) {
                   duration={500}
                   spy="true"
                   exact="true"
-                  offset={-80}
                 >
                   Articles
                 </NavLinks>
