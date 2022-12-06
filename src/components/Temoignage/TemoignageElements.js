@@ -6,10 +6,10 @@ export const TemoignageWrapper = styled.div`
 `;
 export const TemoignageContainer = styled.div`
   max-width: 1100px;
+  padding: 40px 150px;
 `;
 
 export const TemoignageText = styled.p`
-  padding: 40px 150px;
   text-align: justify;
   line-height: 1.3em;
   font-style: italic;
@@ -23,7 +23,7 @@ export const Signature = styled.p`
   font-size: small;
   display: flex;
   justify-content: end;
-  padding: 0 50px 10px;
+  padding: 50px 50px 0px;
 `;
 
 export const ImgWrapper = styled.div`
@@ -31,6 +31,7 @@ export const ImgWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 `;
 
 export const TemoignageImg = styled.img`
@@ -45,6 +46,12 @@ export const TemoignageImg = styled.img`
 export const ImgLegende = styled.p`
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding: 20px 0px 40px;
   font-style: italic;
+`;
+
+export const ReadMoreButton = styled.p`
+  color: #01bf71;
+  font-weight: bold;
+  cursor: pointer;
 `;

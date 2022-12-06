@@ -17,13 +17,13 @@ const Chantiers = () => {
     <ChantiersContainer id="chantiers/#LDJ">
       <ChantiersH1>Nos Chantiers effectués</ChantiersH1>
       <ChantiersWrapper>
-        <ChantiersCard to="/chantiers">
+        <ChantiersCard to="/chantiers/#cress">
           <ChantiersIcon src={Icon1} />
           <ChantiersH2>le lavoir "de Jacques"</ChantiersH2>
           <ChantiersP>lieu-dit Valade</ChantiersP>
         </ChantiersCard>
 
-        <ChantiersCard to="/chantiers">
+        <ChantiersCard to="/chantiers/#bar">
           <ChantiersIcon src={Icon2} />
           <ChantiersH2>La créssonnière</ChantiersH2>
           <ChantiersP>de Lataste</ChantiersP>

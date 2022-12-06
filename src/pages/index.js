@@ -6,7 +6,7 @@ import InfoSection from "../components/InfoSection/InfoSection";
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjFour,
+  // homeObjFour,
 } from "../components/InfoSection/Data";
 import Header from "../components/Header/Header";
 
@@ -18,7 +18,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Chantiers />
-      <InfoSection {...homeObjFour} />
+      {/* <InfoSection {...homeObjFour} /> */}
       <Footer />
     </>
   );

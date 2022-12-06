@@ -15,10 +15,8 @@ const Header = ({ isTransparent }) => {
 
   const changeNav = () => {
     if (window.scrollY >= 80 && transparentBackground) {
-      console.log(transparentBackground);
       setTransparentBackground(false);
     } else if (window.scrollY < 80 && !transparentBackground) {
-      console.log(transparentBackground);
       setTransparentBackground(true);
     }
   };

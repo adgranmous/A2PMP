@@ -33,7 +33,7 @@ const Gallery = () => {
         <PanoramaImg alt="panorama" src={tempImgSrc} />
         <CloseIcon onClick={() => setModel(false)} />
       </Panorama>
-      <LdjH1 id={"LDJ"}>Le lavoir de Jacques</LdjH1>
+      <LdjH1 id="LDJ">Le lavoir de Jacques</LdjH1>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
@@ -43,7 +43,7 @@ const Gallery = () => {
           );
         })}
       </GalleryContainer>
-      <LdjH1>La créssonière</LdjH1>
+      <LdjH1 id="cress">La créssonière</LdjH1>
       <GalleryContainer>
         {data2.map((item, index) => {
           return (
@@ -53,7 +53,7 @@ const Gallery = () => {
           );
         })}
       </GalleryContainer>
-      <LdjH1>Le bar</LdjH1>
+      <LdjH1 id="bar">Le bar</LdjH1>
       <GalleryContainer>
         {data3.map((item, index) => {
           return (
@@ -63,7 +63,7 @@ const Gallery = () => {
           );
         })}
       </GalleryContainer>
-      <LdjH1>Couturat</LdjH1>
+      <LdjH1 id="couturat">Couturat</LdjH1>
       <GalleryContainer>
         {data4.map((item, index) => {
           return (
@@ -124,7 +124,7 @@ const Gallery = () => {
             un grand tableau représentant l’Annonciation signé de François
             Mazoyer et daté de 1665.
             <ArticleImgWrapper>
-              <ArticleImg src={require("../../images/Eglise/eglise4.JPG")} />
+              <ArticleImg src={require("../../images/Eglise/eglise9.JPG")} />
             </ArticleImgWrapper>
             Lors de sa seconde visite accompagné d'un photographe agréé par la
             DRAC, les objets ont été mesurés, photographiés et leurs

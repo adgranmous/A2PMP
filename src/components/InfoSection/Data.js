@@ -62,6 +62,19 @@ export const homeObjActu = {
   darkText: false,
 };
 
+export const actuObjCout = {
+  id: "assemble",
+  lightBg: true,
+  lightText: false,
+  topLine: "Actualités",
+  headLine: "Chantier lavoir du Couturat",
+  description: "le 17 décembre a 9h15. Qui vient ?",
+  imgStart: true,
+  img: require("../../images/svg-waitForU.svg").default,
+  alt: "cabane",
+  darkText: true,
+};
+
 // -------------CHANTIER--------------------
 
 export const chantierObjEglise = {

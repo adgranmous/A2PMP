@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import InfoSection from "../components/InfoSection/InfoSection";
-import { homeObjActu } from "../components/InfoSection/Data";
+import { homeObjActu,actuObjCout } from "../components/InfoSection/Data";
 import { Layout } from "./PageStyle";
 
 const ActuPage = () => {
@@ -11,6 +11,7 @@ const ActuPage = () => {
       <Header />
       <Layout>
         <InfoSection {...homeObjActu} />
+        <InfoSection {...actuObjCout} />
       </Layout>
       <Footer />
     </>
