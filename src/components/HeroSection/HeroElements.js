@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
   height: 800px;
   position: relative;
   z-index: 1;
-  height :100vh;
+  height: 100vh;
 
   :before {
     content: "";
@@ -63,7 +63,7 @@ export const HeroH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 700px) {
-    font-size: 100px;
+    font-size: 70px;
   }
 `;
 
@@ -74,10 +74,6 @@ export const HeroP = styled.p`
   font-weight: bold;
   text-align: center;
   max-width: 600px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
 
   @media screen and (max-width: 480px) {
     font-size: 18px;

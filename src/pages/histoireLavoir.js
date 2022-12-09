@@ -2,18 +2,18 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import InfoSection from "../components/InfoSection/InfoSection";
-import { homeObjConstruction } from "../components/InfoSection/Data";
+import { histoireObjLavoir } from "../components/InfoSection/Data";
 import Histoire from "../components/Histoire/Histoire";
 import { Layout } from "./PageStyle";
 import HistoireSideNavBar from "../components/Histoire/histoireSideNavBar/HistoireSideNavBar";
 
-const HistoirePage = () => {
+const histoireLavoir = () => {
   return (
     <>
       <Header />
       <Layout>
         <HistoireSideNavBar />
-        <InfoSection {...homeObjConstruction} />
+        <InfoSection {...histoireObjLavoir} />
         <Histoire />
       </Layout>
       <Footer />
@@ -21,4 +21,4 @@ const HistoirePage = () => {
   );
 };
 
-export default HistoirePage;
+export default histoireLavoir;

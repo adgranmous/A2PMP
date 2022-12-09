@@ -100,12 +100,25 @@ export const homeObjConstruction = {
   headLine: "Bientot disponible",
   description:
     "Cette rubrique est en cours d'écriture et arrivera prochainement",
-  imgStart: false,
+  imgStart: true,
   img: require("../../images/svg-construction.svg").default,
   alt: "panier",
   darkText: false,
 };
 
+export const histoireObjLavoir = {
+  id: "histoireLavoir",
+  lightBg: false,
+  lightText: true,
+  topLine: "Histoire des lavoirs de Pian",
+  headLine: "Bientot disponible",
+  description:
+    "Cette rubrique est en cours d'écriture et arrivera prochainement",
+  imgStart: false,
+  img: require("../../images/svg-lavoir.svg").default,
+  alt: "panier",
+  darkText: false,
+};
 // -------------TEMOIGNAGE--------------------
 
 export const homeObjTemoignage1 = {
