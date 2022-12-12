@@ -5,7 +5,7 @@ import InfoSection from "../components/InfoSection/InfoSection";
 import { homeObjConstruction } from "../components/InfoSection/Data";
 import Histoire from "../components/Histoire/Histoire";
 import { Layout } from "./PageStyle";
-import HistoireSideNavBar from "../components/Histoire/histoireSideNavBar/HistoireSideNavBar";
+import HistoireSideNavBar from "../components/Histoire/HistoireSideNavBar/HistoireSideNavBar";
 
 const HistoirePage = () => {
   return (

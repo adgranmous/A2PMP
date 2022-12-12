@@ -5,7 +5,8 @@ import InfoSection from "../components/InfoSection/InfoSection";
 import { histoireObjLavoir } from "../components/InfoSection/Data";
 import Histoire from "../components/Histoire/Histoire";
 import { Layout } from "./PageStyle";
-import HistoireSideNavBar from "../components/Histoire/histoireSideNavBar/HistoireSideNavBar";
+import HistoireSideNavBar from "../components/Histoire/HistoireSideNavBar/HistoireSideNavBar";
+import HistoireLavoirArticle from "../components/Histoire/HistoireLavoirArticle/HistoireLavoirArticle";
 
 const histoireLavoir = () => {
   return (
@@ -16,6 +17,7 @@ const histoireLavoir = () => {
         <InfoSection {...histoireObjLavoir} />
         <Histoire />
       </Layout>
+      <HistoireLavoirArticle />
       <Footer />
     </>
   );

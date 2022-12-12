@@ -24,6 +24,18 @@ const Temoignage = () => {
     setReadMore(!readMore);
   };
 
+  const [readMore2, setReadMore2] = useState(false);
+
+  const toggleReadMore2 = () => {
+    setReadMore2(!readMore2);
+  };
+
+  const [readMore3, setReadMore3] = useState(false);
+
+  const toggleReadMore3 = () => {
+    setReadMore3(!readMore3);
+  };
+
   return (
     <>
       <InfoSection {...homeObjTemoignage1} />
@@ -120,12 +132,12 @@ const Temoignage = () => {
             tenu par Mr Bellereau Anatole dit "Totole" de St Macaire. Une course
             d’œufs avait lieu rue de l'église et un bal où nous pouvions danser
             à partir de 16 ans.
-            {!readMore ? (
-              <ReadMoreButton onClick={toggleReadMore}>
+            {!readMore2 ? (
+              <ReadMoreButton onClick={toggleReadMore2}>
                 Lire la suite...
               </ReadMoreButton>
             ) : null}
-            {readMore ? (
+            {readMore2 ? (
               <>
                 <br />
                 <br />
@@ -178,12 +190,12 @@ const Temoignage = () => {
             ll y avait 2 instituteurs, dont un habitait au dessus de l’école et
             était secrétaire de mairie après les cours.
           </TemoignageText>
-          {!readMore ? (
-            <ReadMoreButton onClick={toggleReadMore}>
+          {!readMore3 ? (
+            <ReadMoreButton onClick={toggleReadMore3}>
               Lire la suite...
             </ReadMoreButton>
           ) : null}
-          {readMore ? (
+          {readMore3 ? (
             <>
               <TemoignageText>
                 <br />

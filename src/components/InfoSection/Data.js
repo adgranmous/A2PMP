@@ -85,7 +85,7 @@ export const chantierObjEglise = {
   headLine: "Notre demarche",
   description: `"Lors de sa première visite, il nous a confirmé que nous possédions deux "trésors" anciens."`,
   imgStart: false,
-  img: require("../../images/Eglise/eglise1.jpg"),
+  img: require("../../images/Eglise/eglise11.jpg"),
   alt: "eglise",
   darkText: false,
 };
@@ -110,10 +110,9 @@ export const histoireObjLavoir = {
   id: "histoireLavoir",
   lightBg: false,
   lightText: true,
-  topLine: "Histoire des lavoirs de Pian",
-  headLine: "Bientot disponible",
-  description:
-    "Cette rubrique est en cours d'écriture et arrivera prochainement",
+  topLine: "Histoire",
+  headLine: "Les lavoirs de Pian",
+  description: "L'incroyable histoire des lavoirs",
   imgStart: false,
   img: require("../../images/svg-lavoir.svg").default,
   alt: "panier",
