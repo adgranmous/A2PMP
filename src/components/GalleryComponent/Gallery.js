@@ -43,7 +43,7 @@ const Gallery = () => {
           );
         })}
       </GalleryContainer>
-      <LdjH1 id="cress">La créssonière</LdjH1>
+      <LdjH1 id="cress">La créssonnière</LdjH1>
       <GalleryContainer>
         {data2.map((item, index) => {
           return (

@@ -9,10 +9,21 @@ import HistoirePage from "./pages/histoire";
 import HistoireLavoirsPage from "./pages/histoireLavoir";
 import TemoignagesPage from "./pages/temoignages";
 import ArticlesPage from "./pages/articles";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>A2PMP</title>
+        <link rel="canonical" href="https://a2pmp.fr" />
+        <meta
+          name="description"
+          content="Association pour la Préservation du Patrimoine et de la Mémoire de
+          Pian sur Garonne"
+        />
+      </Helmet>
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />

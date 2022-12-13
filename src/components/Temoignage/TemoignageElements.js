@@ -7,16 +7,16 @@ export const TemoignageWrapper = styled.div`
 export const TemoignageContainer = styled.div`
   max-width: 1100px;
   padding: 40px 150px;
+
+  @media screen and (max-width: 768px) {
+    padding: 40px 80px;
+  }
 `;
 
 export const TemoignageText = styled.p`
   text-align: justify;
   line-height: 1.3em;
   font-style: italic;
-
-  @media screen and (max-width: 768px) {
-    padding: 30px 30px;
-  }
 `;
 
 export const Signature = styled.p`

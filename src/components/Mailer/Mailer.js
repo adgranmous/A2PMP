@@ -11,32 +11,33 @@ import {
   Column2,
   Img,
 } from "./MailerElements";
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
-const mailMock = () => {
-  return new Promise((resolve) => resolve({ text: "ff" }));
-};
+// const mailMock = () => {
+//   return new Promise((resolve) => resolve({ text: "ff" }));
+// };
 
 const Mailer = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     "service_fyixszh",
-    //     "template_kh02wtj",
-    //     e.target,
-    //     "3HiqPuvvUCe2YoonF"
-    //   )
-    mailMock().then(
-      (result) => {
-        console.log(result.text);
-        window.location = "/contact/sent";
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_fyixszh",
+        "template_kh02wtj",
+        e.target,
+        "3HiqPuvvUCe2YoonF"
+      )
+      // mailMock()
+      .then(
+        (result) => {
+          console.log(result.text);
+          window.location = "/contact/sent";
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (

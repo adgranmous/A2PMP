@@ -39,7 +39,7 @@ export const Column2 = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 65%;
+  min-width: 500px;
 `;
 
 export const MailerH2 = styled.h2`

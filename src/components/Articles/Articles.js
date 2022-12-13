@@ -30,9 +30,10 @@ const Articles = () => {
             Ne serait-il pas plus logique qu’un propriétaire qui souhaite
             “retaper” sa cabane, signe une convention dans laquelle il est
             stipulé qu’il s'engage à financer le coût des travaux qui seraient
-            effectués par l'A2PMP, à entretenir par la suite son bien tout en le
-            mettant à la disposition de l’association avec laquelle il s’est
-            engagé, à l’occasion d’animation ponctuelle ?<br />
+            effectués en collaboration avec l'A2PMP, à entretenir par la suite
+            son bien tout en le mettant à la disposition de l’association avec
+            laquelle il s’est engagé, à l’occasion d’animation ponctuelle ?
+            <br />
             <br />
             Le débat est ouvert…
           </ArticleTexte>
