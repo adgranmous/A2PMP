@@ -22,7 +22,6 @@ export const MailerRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  width: 100%;
   justify-content: center;
   padding-right: 20px;
 
@@ -34,12 +33,12 @@ export const Column1 = styled.div`
 export const Column2 = styled.div`
   display: flex;
   justify-content: center;
-  max-width: 555px;
-  height: 100%;
+  max-width: 500px;
 `;
 
 export const Img = styled.img`
-  min-width: 500px;
+  min-width: 300px;
+  max-width: 50vw;
 `;
 
 export const MailerH2 = styled.h2`

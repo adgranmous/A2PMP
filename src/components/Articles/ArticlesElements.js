@@ -14,7 +14,7 @@ export const ArticleTexte = styled.p`
   text-align: justify;
   line-height: 1.3em;
   @media screen and (max-width: 768px) {
-    padding: 30px 30px;
+    padding: 30px 18px;
   }
 `;
 export const ArticleImg = styled.img`
