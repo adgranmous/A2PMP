@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 
 export const GalleryContainer = styled.div`
-  background-color: #000;
+  background-color: #010606;
   -webkit-column-count: 3;
   -webkit-column-count: 3;
   column-count: 3;
@@ -26,11 +26,12 @@ export const GalleryLDJ = styled.div`
 `;
 
 export const LdjH1 = styled.h2`
-  padding: 170px 0px 40px;
-  background-color: #000;
+  padding: 30px 0px 40px;
+  background-color: #010606;
   color: #fff;
   display: flex;
   justify-content: center;
+  border-decoration: none;
 `;
 
 export const LDJimg = styled.img`

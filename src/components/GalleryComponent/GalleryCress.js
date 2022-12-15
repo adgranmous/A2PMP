@@ -13,9 +13,10 @@ import {
   CloseIcon,
   LdjH1,
 } from "./GalleryElements";
-import { data } from "./DataPhoto";
+import { data2 } from "./DataPhoto";
+import {HistoireContainer} from '../Histoire/HistoireElements'
 
-const Gallery = () => {
+const GalleryCress = () => {
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
   const getImg = (imgSrc) => {
@@ -42,9 +43,10 @@ const Gallery = () => {
         <PanoramaImg alt="panorama" src={tempImgSrc} />
         <CloseIcon onClick={() => setModel(false)} />
       </Panorama>
-      <LdjH1 id="LDJ">Le lavoir de Jacques</LdjH1>
+
+      <LdjH1 id="cress">La créssonnière</LdjH1>
       <GalleryContainer>
-        {data.map((item, index) => {
+        {data2.map((item, index) => {
           return (
             <GalleryLDJ key={index} onClick={() => getImg(item.imgSrc)}>
               <LDJimg src={item.imgSrc} />
@@ -52,8 +54,10 @@ const Gallery = () => {
           );
         })}
       </GalleryContainer>
+      <HistoireContainer />
+
     </>
   );
 };
 
-export default Gallery;
+export default GalleryCress;

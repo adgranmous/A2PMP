@@ -2,13 +2,15 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 export const SideBarNavContainer = styled.div`
-  width: 20vw;
   ${"" /* height: 100vh; */}
   margin: 0;
   padding: 150px 0 0;
+  background-color: #010606;
 `;
 
 export const SidebarNavLinksWrapper = styled.div`
+  width: 25vw;
+
   display: flex;
   flex-direction: column;
   background-color: #101522;

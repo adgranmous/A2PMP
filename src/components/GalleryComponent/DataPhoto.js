@@ -1,15 +1,23 @@
+// LDJ
+
 import Img1 from "../../images/LDJ/LDJ1.jpg";
 import Img2 from "../../images/LDJ/LDJ2.jpg";
 import Img3 from "../../images/LDJ/LDJ3.jpg";
 import Img4 from "../../images/LDJ/LDJ4.jpg";
 import Img5 from "../../images/LDJ/LDJ5.jpg";
-import Img6 from "../../images/LDJ/LDJ6.JPG";
-import Img7 from "../../images/LDJ/LDJ7.jpg";
-import Img8 from "../../images/LDJ/LDJ8.jpg";
+import Img6 from "../../images/LDJ/LDJ6.jpg";
+import Img7 from "../../images/LDJ/LDJ7.JPG";
+import Img8 from "../../images/LDJ/LDJ8.JPG";
 import Img9 from "../../images/LDJ/LDJ9.jpg";
-import Img10 from "../../images/LDJ/LDJ10.JPG";
+import Img10 from "../../images/LDJ/LDJ10.jpg";
+
+// Cressoniere
+
 import cress1 from "../../images/Cress/cress1.JPG";
 import cress2 from "../../images/Cress/cress2.JPG";
+
+// bar
+
 import bar1 from "../../images/Bar/bar1.JPG";
 import bar2 from "../../images/Bar/bar2.JPG";
 import bar3 from "../../images/Bar/bar3.JPG";
@@ -17,6 +25,9 @@ import bar4 from "../../images/Bar/bar4.JPG";
 import bar5 from "../../images/Bar/bar5.JPG";
 import bar6 from "../../images/Bar/bar6.JPG";
 import bar7 from "../../images/Bar/bar7.JPG";
+
+// couturat
+
 import cout1 from "../../images/Couturat/cout1.JPG";
 import cout2 from "../../images/Couturat/cout2.JPG";
 import cout3 from "../../images/Couturat/cout3.JPG";

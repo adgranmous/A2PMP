@@ -5,6 +5,10 @@ import ActuPage from "./pages/actu";
 import ContactPage from "./pages/contact";
 import ContactSent from "./pages/contactSent";
 import ChantiersPage from "./pages/chantiers";
+import ChantiersCressPage from "./pages/chantierCress";
+import ChantiersBarPage from "./pages/chantierBar";
+import ChantiersCouturatPage from "./pages/chantierCouturat";
+import ChantiersEglisePage from "./pages/chantierEglise";
 import HistoirePage from "./pages/histoire";
 import HistoireLavoirsPage from "./pages/histoireLavoir";
 import TemoignagesPage from "./pages/temoignages";
@@ -31,6 +35,22 @@ function App() {
           <Route exact path="/contact" element={<ContactPage />} />
           <Route exact path="/contact/sent" element={<ContactSent />} />
           <Route exact path="/chantiers" element={<ChantiersPage />} />
+          <Route
+            exact
+            path="/chantiers/cress"
+            element={<ChantiersCressPage />}
+          />
+          <Route exact path="/chantiers/bar" element={<ChantiersBarPage />} />
+          <Route
+            exact
+            path="/chantiers/couturat"
+            element={<ChantiersCouturatPage />}
+          />
+          <Route
+            exact
+            path="/chantiers/eglise"
+            element={<ChantiersEglisePage />}
+          />
           <Route exact path="/histoire" element={<HistoirePage />} />
           <Route
             exact
