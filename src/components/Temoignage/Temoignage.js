@@ -94,7 +94,7 @@ const Temoignage = () => {
                 <br />
                 <br />
                 Nous vendions le vin à des négociants de St Macaire comme Mr
-                Lavaur ou Mr Pigano, mais aussi de Semens comme Mr Darnauzan.
+                Lavaur ou Mr Piganeau, mais aussi de Semens comme Mr Darnauzan.
                 <br />
                 <br />
                 En 1956, je suis allée à l'école agricole qui était située 25
