@@ -48,7 +48,7 @@ const GalleryBar = () => {
         {data3.map((item, index) => {
           return (
             <GalleryLDJ key={index} onClick={() => getImg(item.imgSrc)}>
-              <LDJimg src={item.imgSrc} />
+              <LDJimg src={item.imgSrc} loading="lazy"/>
             </GalleryLDJ>
           );
         })}

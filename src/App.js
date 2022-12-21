@@ -21,7 +21,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>A2PMP</title>
-        <link rel="canonical" href="https://a2pmp.fr" />
+        <link rel="canonical" href="https://www.a2pmp.fr/" />
         <meta
           name="description"
           content="Association pour la Préservation du Patrimoine et de la Mémoire de

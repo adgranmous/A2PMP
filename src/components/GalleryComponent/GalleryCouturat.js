@@ -48,7 +48,7 @@ const GalleryCouturat = () => {
         {data4.map((item, index) => {
           return (
             <GalleryLDJ key={index} onClick={() => getImg(item.imgSrc)}>
-              <LDJimg src={item.imgSrc} />
+              <LDJimg src={item.imgSrc} loading="lazy"/>
             </GalleryLDJ>
           );
         })}

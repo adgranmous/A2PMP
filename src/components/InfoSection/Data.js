@@ -67,10 +67,10 @@ export const actuObjCout = {
   lightBg: true,
   lightText: false,
   topLine: "Actualités",
-  headLine: "Chantier lavoir du Couturat",
-  description: "le 17 décembre a 9h15. Qui vient ?",
+  headLine: "Fêtes de fin d'année",
+  description: "L'A2PMP vous souhaites de joyeuses fêtes.",
   imgStart: true,
-  img: require("../../images/svg-waitForU.svg").default,
+  img: require("../../images/svg-noel.svg").default,
   alt: "cabane",
   darkText: true,
 };
@@ -97,11 +97,10 @@ export const homeObjConstruction = {
   lightBg: false,
   lightText: true,
   topLine: "Histoire de Pian",
-  headLine: "Bientot disponible",
-  description:
-    "Cette rubrique est en cours d'écriture et arrivera prochainement",
+  headLine: "Origine du nom de Pian",
+  description: "",
   imgStart: true,
-  img: require("../../images/svg-construction.svg").default,
+  img: require("../../images/reading.svg").default,
   alt: "panier",
   darkText: false,
 };

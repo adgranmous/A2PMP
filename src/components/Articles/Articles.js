@@ -38,8 +38,16 @@ const Articles = () => {
             Le débat est ouvert…
           </ArticleTexte>
           <ArticleImgWrapper>
-            <ArticleImg src={require("../../images/Cabanes/cabane1.JPG")} />
-            <ArticleImg src={require("../../images/Cabanes/cabane3.JPG")} />
+            <ArticleImg
+              alt="cabane1"
+              src={require("../../images/Cabanes/cabane1.JPG")}
+              loading="lazy"
+            />
+            <ArticleImg
+              alt="cabane2"
+              src={require("../../images/Cabanes/cabane3.JPG")}
+              loading="lazy"
+            />
           </ArticleImgWrapper>
         </ArticleContainer>
       </ArticleWrapper>

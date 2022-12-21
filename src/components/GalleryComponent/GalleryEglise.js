@@ -40,13 +40,21 @@ const GalleryEglise = () => {
             1897 de détruire l'église située au centre du cimetière mais de
             conserver la chapelle sud.
             <ArticleImgWrapper>
-              <ArticleImg src={require("../../images/Eglise/eglise1.jpg")} />
+              <ArticleImg
+                alt="eglise1"
+                src={require("../../images/Eglise/eglise1.jpg")}
+                loading="lazy"
+              />
             </ArticleImgWrapper>
             Une nouvelle église (l'actuelle) fut construite en 1901 sur un
             terrain situé au lieu-dit Les Merles dans le nouveau bourg "du
             haut".
             <ArticleImgWrapper>
-              <ArticleImg src={require("../../images/Eglise/eglise2.jpg")} />
+              <ArticleImg
+                alt="eglise2"
+                src={require("../../images/Eglise/eglise2.jpg")}
+                loading="lazy"
+              />
             </ArticleImgWrapper>
             Ayant appris par un féru d'histoire locale et d'architecture que
             l'ancien autel du bas, des statues ainsi qu'un vieux tableau
@@ -70,18 +78,41 @@ const GalleryEglise = () => {
             des statues qui pourraient provenir d’un ancien retable du 18éme
             siècle;
             <ArticleImgWrapper>
-              <ArticleImg src={require("../../images/Eglise/eglise3.JPG")} />
-              <ArticleImg src={require("../../images/Eglise/eglise5.JPG")} />
+              <ArticleImg
+                alt="hotelEglise"
+                src={require("../../images/Eglise/eglise3.JPG")}
+                loading="lazy"
+              />
+              <ArticleImg
+                src={require("../../images/Eglise/eglise5.JPG")}
+                loading="lazy"
+              />
             </ArticleImgWrapper>
             <ArticleImgWrapper>
-              <ArticleImg src={require("../../images/Eglise/eglise6.JPG")} />
-              <ArticleImg src={require("../../images/Eglise/eglise7.JPG")} />
-              <ArticleImg src={require("../../images/Eglise/eglise8.JPG")} />
+              <ArticleImg
+                alt="statut1"
+                src={require("../../images/Eglise/eglise6.JPG")}
+                loading="lazy"
+              />
+              <ArticleImg
+                alt="statut2"
+                src={require("../../images/Eglise/eglise7.JPG")}
+                loading="lazy"
+              />
+              <ArticleImg
+                alt="statut3"
+                src={require("../../images/Eglise/eglise8.JPG")}
+                loading="lazy"
+              />
             </ArticleImgWrapper>
             un grand tableau représentant l’Annonciation signé de François
             Mazoyer et daté de 1665.
             <ArticleImgWrapper>
-              <ArticleImg src={require("../../images/Eglise/eglise9.JPG")} />
+              <ArticleImg
+                alt="tableau1"
+                src={require("../../images/Eglise/eglise9.JPG")}
+                loading="lazy"
+              />
             </ArticleImgWrapper>
             Lors de sa seconde visite accompagné d'un photographe agréé par la
             DRAC, les objets ont été mesurés, photographiés et leurs

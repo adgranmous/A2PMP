@@ -14,7 +14,7 @@ import {
   LdjH1,
 } from "./GalleryElements";
 import { data2 } from "./DataPhoto";
-import {HistoireContainer} from '../Histoire/HistoireElements'
+import { HistoireContainer } from "../Histoire/HistoireElements";
 
 const GalleryCress = () => {
   const [model, setModel] = useState(false);
@@ -49,13 +49,12 @@ const GalleryCress = () => {
         {data2.map((item, index) => {
           return (
             <GalleryLDJ key={index} onClick={() => getImg(item.imgSrc)}>
-              <LDJimg src={item.imgSrc} />
+              <LDJimg src={item.imgSrc} loading="lazy" />
             </GalleryLDJ>
           );
         })}
       </GalleryContainer>
       <HistoireContainer />
-
     </>
   );
 };
