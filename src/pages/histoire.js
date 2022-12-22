@@ -6,6 +6,7 @@ import { homeObjConstruction } from "../components/InfoSection/Data";
 import Histoire from "../components/Histoire/Histoire";
 import HistoireSideNavBar from "../components/Histoire/HistoireSideNavBar/HistoireSideNavBar";
 import { Helmet } from "react-helmet";
+// import { Layout } from "./PageStyle";
 import HistoirePianArticle from "../components/Histoire/HistoirePianArticle/HistoirePianArticle";
 
 const HistoirePage = () => {
@@ -20,11 +21,13 @@ const HistoirePage = () => {
           content="Histoire de Pian sur Garonne (la commune, les lavoirs...)"
         />
       </Helmet>
+      {/* <Layout> */}
       <Header />
       <HistoireSideNavBar />
       <InfoSection {...homeObjConstruction} />
       <Histoire />
       <HistoirePianArticle />
+      {/* </Layout> */}
       <Footer />
     </>
   );

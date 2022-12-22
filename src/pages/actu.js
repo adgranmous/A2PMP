@@ -20,8 +20,8 @@ const ActuPage = () => {
       </Helmet>
       <Header />
       <Layout>
-        <InfoSection {...homeObjActu} />
         <InfoSection {...actuObjCout} />
+        <InfoSection {...homeObjActu} />
       </Layout>
       <Footer />
     </>

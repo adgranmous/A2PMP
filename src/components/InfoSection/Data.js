@@ -50,29 +50,29 @@ export const homeObjFour = {
 
 export const homeObjActu = {
   id: "assemble",
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   topLine: "Actualités",
   headLine: "Assemblée générale",
   description:
     "L'Assemblée Générale de l’association aura lieu le 20 janvier à 20h à la salle des fêtes .",
-  imgStart: false,
+  imgStart: true,
   img: require("../../images/svg-meeting.svg").default,
   alt: "cabane",
-  darkText: false,
+  darkText: true,
 };
 
 export const actuObjCout = {
   id: "assemble",
-  lightBg: true,
-  lightText: false,
+  lightBg: false,
+  lightText: true,
   topLine: "Actualités",
   headLine: "Fêtes de fin d'année",
-  description: "L'A2PMP vous souhaites de joyeuses fêtes.",
-  imgStart: true,
+  description: "L'A2PMP vous souhaite de joyeuses fêtes.",
+  imgStart: false,
   img: require("../../images/svg-noel.svg").default,
   alt: "cabane",
-  darkText: true,
+  darkText: false,
 };
 
 // -------------CHANTIER--------------------
