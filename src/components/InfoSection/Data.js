@@ -67,10 +67,12 @@ export const actuObjCout = {
   lightBg: false,
   lightText: true,
   topLine: "Actualités",
-  headLine: "Fêtes de fin d'année",
-  description: "L'A2PMP vous souhaite de joyeuses fêtes.",
+  headLine: "Bonne année 2023",
+  description: `L'A2PMP vous adresse ses meilleurs voeux, nous vous souhaitons en priorité la santé (primordial pour etre actif dans l'association), croisons les doigts pour le reste.
+  Que cette année 2023 soit pour notre association aussi riche  en découvertes en rencontres et en concrétisation de nos projets que l'a été 2022.
+  `,
   imgStart: false,
-  img: require("../../images/svg-noel.svg").default,
+  img: require("../../images/feuArtifice.svg").default,
   alt: "cabane",
   darkText: false,
 };

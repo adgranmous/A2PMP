@@ -5,13 +5,9 @@ export const HistoireContainer = styled.div`
   padding: 117px;
 `;
 
-// export const NoteBlock = styled.div`
-//   ${'' /* position: relative; */}
-//   ${'' /* margin: 0; */}
-//   ${'' /* padding: 0; */}
-//   cursor: pointer;
-//   ${'' /* width: 0;  */}
-// `;
+export const NoteBlock = styled.div`
+  ${'' /* visibility : hidden; */}
+`;
 
 export const NoteText = styled.a`
   text-decoration: none;
@@ -19,11 +15,4 @@ export const NoteText = styled.a`
   color: #01bf71;
 `;
 
-// export const TooltipText = styled.span`
-//   ${'' /* position: absolute;
-//   left: 50%;
-//   top: 0;
-//   transform: translateX(-50%);
-//   background-color: #000;
-//   color: #fff; */}
-// `;
+
