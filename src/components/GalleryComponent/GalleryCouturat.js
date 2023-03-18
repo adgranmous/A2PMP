@@ -34,8 +34,10 @@ const GalleryCouturat = () => {
             La créssonnière
           </SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/bar">Le bar</SideBarNavLinks>
-          <SideBarNavLinks to="/chantiers/couturat">Couturat</SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/eglise">L'eglise</SideBarNavLinks>
+          <SideBarNavLinks to="/chantiers/chapelle">
+            La chapelle du Bas-Pian
+          </SideBarNavLinks>
         </SidebarNavLinksWrapper>
       </SideBarNavContainer>
       <Panorama className={model ? "model open" : "model"}>
@@ -48,7 +50,7 @@ const GalleryCouturat = () => {
         {data4.map((item, index) => {
           return (
             <GalleryLDJ key={index} onClick={() => getImg(item.imgSrc)}>
-              <LDJimg src={item.imgSrc} loading="lazy"/>
+              <LDJimg src={item.imgSrc} loading="lazy" />
             </GalleryLDJ>
           );
         })}

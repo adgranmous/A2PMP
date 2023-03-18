@@ -30,8 +30,8 @@ const SideBar = ({ isOpen, toggle }) => {
           <SidebarLink onClick={toggle} to="/temoignages">
             Témoignages
           </SidebarLink>
-          <SidebarLink onClick={toggle} to="/articles">
-            Articles
+          <SidebarLink onClick={toggle} to="/projets">
+            Projets
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

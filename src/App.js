@@ -9,6 +9,7 @@ import ChantiersCressPage from "./pages/chantierCress";
 import ChantiersBarPage from "./pages/chantierBar";
 import ChantiersCouturatPage from "./pages/chantierCouturat";
 import ChantiersEglisePage from "./pages/chantierEglise";
+import ChantiersChapellePage from "./pages/chantierChap";
 import HistoirePage from "./pages/histoire";
 import HistoireLavoirsPage from "./pages/histoireLavoir";
 import TemoignagesPage from "./pages/temoignages";
@@ -51,6 +52,11 @@ function App() {
             path="/chantiers/eglise"
             element={<ChantiersEglisePage />}
           />
+          <Route
+            exact
+            path="/chantiers/chapelle"
+            element={<ChantiersChapellePage />}
+          />
           <Route exact path="/histoire" element={<HistoirePage />} />
           <Route
             exact
@@ -58,7 +64,7 @@ function App() {
             element={<HistoireLavoirsPage />}
           />
           <Route exact path="/temoignages" element={<TemoignagesPage />} />
-          <Route exact path="/articles" element={<ArticlesPage />} />
+          <Route exact path="/projets" element={<ArticlesPage />} />
         </Routes>
       </Router>
     </>

@@ -76,13 +76,13 @@ function Navbar({ toggle }) {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="/articles"
+                  to="/projets"
                   smooth="true"
                   duration={500}
                   spy="true"
                   exact="true"
                 >
-                  Articles
+                  Projets
                 </NavLinks>
               </NavItem>
             </NavMenu>

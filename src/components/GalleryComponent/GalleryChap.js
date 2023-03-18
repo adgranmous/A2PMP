@@ -13,9 +13,9 @@ import {
   CloseIcon,
   LdjH1,
 } from "./GalleryElements";
-import { data3 } from "./DataPhoto";
+import { data5 } from "./DataPhoto";
 
-const GalleryBar = () => {
+const GalleryChap = () => {
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
   const getImg = (imgSrc) => {
@@ -33,11 +33,9 @@ const GalleryBar = () => {
           <SideBarNavLinks to="/chantiers/cress">
             La créssonnière
           </SideBarNavLinks>
+          <SideBarNavLinks to="/chantiers/bar">Le bar</SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/couturat">Couturat</SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/eglise">L'eglise</SideBarNavLinks>
-          <SideBarNavLinks to="/chantiers/chapelle">
-            La chapelle du Bas-Pian
-          </SideBarNavLinks>
         </SidebarNavLinksWrapper>
       </SideBarNavContainer>
       <Panorama className={model ? "model open" : "model"}>
@@ -45,9 +43,9 @@ const GalleryBar = () => {
         <CloseIcon onClick={() => setModel(false)} />
       </Panorama>
 
-      <LdjH1 id="bar">Le bar</LdjH1>
+      <LdjH1 id="chapelle">La chapelle du Bas-Pian</LdjH1>
       <GalleryContainer>
-        {data3.map((item, index) => {
+        {data5.map((item, index) => {
           return (
             <GalleryLDJ key={index} onClick={() => getImg(item.imgSrc)}>
               <LDJimg src={item.imgSrc} loading="lazy" />
@@ -59,4 +57,4 @@ const GalleryBar = () => {
   );
 };
 
-export default GalleryBar;
+export default GalleryChap;

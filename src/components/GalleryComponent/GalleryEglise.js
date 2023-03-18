@@ -26,7 +26,9 @@ const GalleryEglise = () => {
           </SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/bar">Le bar</SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/couturat">Couturat</SideBarNavLinks>
-          <SideBarNavLinks to="/chantiers/eglise">L'eglise</SideBarNavLinks>
+          <SideBarNavLinks to="/chantiers/chapelle">
+            La chapelle du Bas-Pian
+          </SideBarNavLinks>
         </SidebarNavLinksWrapper>
       </SideBarNavContainer>
 

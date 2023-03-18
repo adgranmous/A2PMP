@@ -18,14 +18,15 @@ export const homeObjTwo = {
   id: "discover",
   lightBg: true,
   lightText: false,
-  topLine: "En chiffres",
-  headLine: "30/3",
-  description: `L'association compte une trentaine de membres et a déja 3 chantiers à son actif.
-    Composition du bureau :  Président : Alain Mallié
-    Secrétaire : Jacques Pauzat
-    Trésorier : Stéphane Cocquet.
-   `,
-  buttonLabel: "Commander maintenant",
+  topLine: "Une équipe",
+  headLine: "Qui sommes nous ?",
+  description: `L'association compte une trentaine de membres et déja 4 chantiers à son actif.
+    Composition du bureau :  Président : Alain Mallié, Vice-président : Alain Gougelet
+    Secrétaire : Jacques Pauzat,
+    Secrétaire adjointe : Sandrine Pauzat,
+    Trésorier : Stéphane Cocquet,
+    Trésorière adjointe : Christine Gougelet.
+    / Adhésion 12€ l’année`,
   imgStart: true,
   img: require("../../images/svg-number.svg").default,
   alt: "soucoupe",
@@ -50,29 +51,42 @@ export const homeObjFour = {
 
 export const homeObjActu = {
   id: "assemble",
-  lightBg: true,
-  lightText: false,
+  lightBg: false,
+  lightText: true,
   topLine: "Actualités",
-  headLine: "Assemblée générale",
+  headLine: "Restauration autel",
   description:
-    "L'Assemblée Générale de l’association aura lieu le 20 janvier à 20h à la salle des fêtes .",
-  imgStart: true,
-  img: require("../../images/svg-meeting.svg").default,
+    "Restauration Autel de l'église : le dossier avec devis est entre les mains du référent patrimonial et responsable des bâtiments communaux M. Daulon qui a présenté le projet à l’ensemble du conseil municipal.",
+  imgStart: false,
+  img: require("../../images/svg-waitForU.svg").default,
   alt: "cabane",
-  darkText: true,
+  darkText: false,
 };
 
 export const actuObjCout = {
   id: "assemble",
+  lightBg: true,
+  lightText: false,
+  topLine: "Actualités",
+  headLine: "Couturat",
+  description: `Prochain chantier Couturat le 25 mars 9h15.
+  `,
+  imgStart: true,
+  img: require("../../images/svg-construction.svg").default,
+  alt: "cabane",
+  darkText: true,
+};
+
+export const ObjActu3 = {
+  id: "assemble",
   lightBg: false,
   lightText: true,
   topLine: "Actualités",
-  headLine: "Bonne année 2023",
-  description: `L'A2PMP vous adresse ses meilleurs voeux, nous vous souhaitons en priorité la santé (primordial pour etre actif dans l'association), croisons les doigts pour le reste.
-  Que cette année 2023 soit pour notre association aussi riche  en découvertes en rencontres et en concrétisation de nos projets que l'a été 2022.
-  `,
+  headLine: "Emploi civique",
+  description:
+    "La municipalité a octroyée la somme de 5000€ aux associations suivantes CVLV & UFCV afin que ces dernières embauchent un emploi civique pour nettoyer les abords des cabanes de vignes qui se trouvent sur les chemins de randonnées, nous avons sollicité Mr le Maire afin que cet emploi civique prend en charge l’entretien extérieur du lavoir communal de Jacques qui lui aussi se trouve dans une boucle de randonnée, Mr le Maire soumettra cette demande au CVLV qui gère cet emploi civique.",
   imgStart: false,
-  img: require("../../images/feuArtifice.svg").default,
+  img: require("../../images/svg-interview.svg").default,
   alt: "cabane",
   darkText: false,
 };

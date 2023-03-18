@@ -10,7 +10,7 @@ const ArticlesPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Articles</title>
-        <link rel="canonical" href="https://www.a2pmp.fr/articles" />
+        <link rel="canonical" href="https://www.a2pmp.fr/projets" />
         <meta
           name="description"
           content="tout les articles de l'A2pmp (les cabanes des vignes...)"

@@ -31,12 +31,12 @@ const GalleryCress = () => {
           <SideBarNavLinks to="/chantiers">
             Le lavoir de Jacques
           </SideBarNavLinks>
-          <SideBarNavLinks to="/chantiers/cress">
-            La créssonnière
-          </SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/bar">Le bar</SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/couturat">Couturat</SideBarNavLinks>
           <SideBarNavLinks to="/chantiers/eglise">L'eglise</SideBarNavLinks>
+          <SideBarNavLinks to="/chantiers/chapelle">
+            La chapelle du Bas-Pian
+          </SideBarNavLinks>
         </SidebarNavLinksWrapper>
       </SideBarNavContainer>
       <Panorama className={model ? "model open" : "model"}>

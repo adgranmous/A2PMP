@@ -2,7 +2,11 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import InfoSection from "../components/InfoSection/InfoSection";
-import { homeObjActu, actuObjCout } from "../components/InfoSection/Data";
+import {
+  homeObjActu,
+  actuObjCout,
+  ObjActu3,
+} from "../components/InfoSection/Data";
 import { Layout } from "./PageStyle";
 import { Helmet } from "react-helmet";
 
@@ -20,8 +24,9 @@ const ActuPage = () => {
       </Helmet>
       <Header />
       <Layout>
-        <InfoSection {...actuObjCout} />
         <InfoSection {...homeObjActu} />
+        <InfoSection {...actuObjCout} />
+        <InfoSection {...ObjActu3} />
       </Layout>
       <Footer />
     </>
